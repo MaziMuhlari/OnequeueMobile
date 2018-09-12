@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "35875811390",
+    "firebase_url": "https://onequeue-a1ed5.firebaseio.com",
+    "project_id": "onequeue-a1ed5",
+    "storage_bucket": "onequeue-a1ed5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35875811390:android:dd486711d8c858c7",
+        "android_client_info": {
+          "package_name": "co.za.mazimuhlari.onequeue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35875811390-1okv6tpojuj93uene4onhkmh1t5fch79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.za.mazimuhlari.onequeue",
+            "certificate_hash": "2604625d8242164613254f03dd0d798d26563422"
+          }
+        },
+        {
+          "client_id": "35875811390-60n313c03u97c5h2rj3u8ctu6c03tm8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVYIwsdbiliQa8trCZkxbi4uWbinWtek0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35875811390-60n313c03u97c5h2rj3u8ctu6c03tm8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
