@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Onequeue.Pages.PushNotificationPromptPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                
+                <!-- Prompt Title -->
+                <Label
+                    Grid.Row="1"
+                    Margin="20,20,20,30"
+                    HorizontalTextAlignment="Center"
+                    Text="We need to enable push notifications"
+                    FontAttributes="Bold"
+                    TextColor="#16a085" />
+                
+                <!-- Prompt Description -->
+                <Label
+                    Grid.Row="2"
+                    Margin="20,10,20,30"
+                    HorizontalTextAlignment="Center"
+                    Text="We will use push notifications to provide you the best experience on the platform as well as send you information and the latest updates for a real time experience."
+                    TextColor="#16a085" />
+                
+                <!-- Allow Button -->
+                <Button
+                    Grid.Row="3"
+                    Margin="20,10,20,0"
+                    Text="I allow push notifications"
+                    BackgroundColor="#2ecc71"
+                    TextColor="White" />
+                
+                <!-- Not Now Link -->
+                <Button
+                    Grid.Row="4"
+                    Margin="0,10,0,30"
+                    Text="Not now"
+                    TextColor="Silver" />
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
